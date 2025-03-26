@@ -10,14 +10,36 @@
     bottom: 0;
     width: 100%;
 }
-.full-height {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
+.hero {
     align-items: center;
-    text-align: center;
     background-image: url('./image/background.jpg');
     background-size: cover;
-  }
-
-
+}
+.full-height{
+    height: 100vh;
+}
+.card-long{
+    height: 60vh;
+    width: 60vh;
+}
+nav{
+    z-index: 1;
+}
+#wedding{
+    background-image: url('./image/wedding.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+#corpo-event{
+    background-image: url('./image/corpo-event.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#birthday{
+    background-image: url('./image/birthday.jpg');
+    background-size: cover;
+}
+#private-event{
+    background-image: url('./image/private-event.jpg');
+    background-size: cover;
+}

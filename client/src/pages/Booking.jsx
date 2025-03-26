@@ -1,6 +1,6 @@
 function booking() {
   return (
-    <div>booking</div>
+    <div>bookinsssg</div>
   )
 }
 export default booking
